@@ -14,7 +14,6 @@ const {generateStructName} = require('./EventEmitterHelpers.js');
 
 import type {
   ComponentShape,
-  EventTypeShape,
   ObjectPropertyType,
   SchemaType,
 } from '../CodegenSchema';
@@ -25,8 +24,6 @@ type FilesOutput = Map<string, string>;
 type ComponentCollection = $ReadOnly<{
   [component: string]: ComponentShape,
 }>;
-
-type SettersSet = Set<string>;
 
 const template = `
 /**

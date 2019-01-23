@@ -10,7 +10,7 @@
 
 'use strict';
 
-import type {PropTypeShape, SchemaType} from '../CodegenSchema';
+import type {SchemaType} from '../CodegenSchema';
 
 // File path -> contents
 type FilesOutput = Map<string, string>;

@@ -18,8 +18,6 @@ import type {PropTypeShape, SchemaType} from '../CodegenSchema';
 // File path -> contents
 type FilesOutput = Map<string, string>;
 
-type TypeAnnotation = $PropertyType<PropTypeShape, 'typeAnnotation'>;
-
 const template = `
 /**
  * Copyright (c) Facebook, Inc. and its affiliates.
